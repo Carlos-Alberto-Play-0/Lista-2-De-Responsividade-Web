@@ -1,0 +1,4 @@
+﻿*{color:#1E90FF;}
+#titulo{background-color: black; padding: 10px; color:white; position:relative; left:39%; font-size:70px; width:300px ;text-align:center; text-shadow:6px 3px 3px red}
+#nome{color:black; font-size:40px; text-align:center; text-shadow:5px 3px 2px red}
+#conteudo{background-color: blue; padding: 20px; color:white; position:relative; left:33%; width:400px ;text-align:center;}
