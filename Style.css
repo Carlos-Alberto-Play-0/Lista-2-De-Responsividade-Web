@@ -1,4 +1,35 @@
-﻿*{color:#1E90FF;}
-#titulo{background-color: black; padding: 10px; color:white; position:relative; left:39%; font-size:70px; width:300px ;text-align:center; text-shadow:6px 3px 3px red}
+﻿*{color:#1E90FF; box-sizing: border-box;}
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+[class*="col-"]{float: left; padding: 15px;}
+.center{display: block; margin-left: auto; margin-right: auto; width: 50%;}
+.responsive{max-width: 38%; height: auto;}
+body{background-image: url("Dupla.jpg"); background-position: center center; background-repeat: no-repeat; background-attachment: fixed; background-size: cover;}
+#titulo{background-color: black; padding: 1%; margin-left: 39.5%; color:white; font-size:70px; width:300px ;text-align:center; text-shadow:6px 3px 3px red}
 #nome{color:black; font-size:40px; text-align:center; text-shadow:5px 3px 2px red}
 #conteudo{background-color: blue; padding: 20px; color:white; position:relative; left:33%; width:400px ;text-align:center;}
+@media only screen and (max-width: 1100px){
+    #titulo{margin-left: 35%;}
+    #nome{font-size: 40px;}
+    #conteudo{left: 30%;}
+}
+@media only screen and (max-width: 900px){
+    #titulo{margin-left: 30%;}
+    #nome{font-size: 35px;}
+    #conteudo{left: 20%;}
+}
+@media only screen and (max-width: 600px){
+    #titulo{margin-left: 20%;}
+    #nome{font-size: 30px;}
+    #conteudo{left: 10%;}
+}
